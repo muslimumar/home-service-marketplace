@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #222021;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.form-container {
+  padding: 40px;
+}
+
+.form-container h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  background: #728BAD;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+  background: #a0c0d6;
+}
+
+.form-container a {
+  display: block;
+  color: #728BAD;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.form-container a:hover {
+  color: #a0c0d6;
+}
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form action="#">
+        <h1>Create Account</h1>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Sign Up</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
