@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      color: black;
+    } 
+    body {
+      background-color: #222021;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    select, input[type="date"], input[type="time"], button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    
+    button {
+      background-color: #728BAD;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #a0c0d6;
+    }
+    .serviceType {
+      background-color: #222021;
+      color: black;
+    }
+    form>label {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Service Scheduling</h1>
+  <form style="color: black;">
+    <label for="serviceType">Service Type:</label>
+    <select id="serviceType" name="serviceType">
+      <option value="electrical">Electrical Help</option>
+      <option value="painting">Painting</option>
+      <option value="cleaning">Cleaning</option>
+      <option value="plumbing">plumbing</option>
+      <option value="mounting">Mount a TV</option>
+      <option value="Heavy Lifting">Heavy Lifting</option>
+      <!-- Add more service options if needed -->
+    </select>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time">
+    <div style="margin: 10px;">
+      <label for="location" style="color: white;">Location:</label>
+      <input type="text" id="location" name="location">
+    </div>
+   
+
+    <button type="submit">Schedule Service</button>
+  </form>
+</body>
+</html>
