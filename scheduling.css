@@ -1,0 +1,48 @@
+* {
+    color: black;
+  } 
+  body {
+    background-color: #222021;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  select, input[type="date"], input[type="time"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #728BAD;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a0c0d6;
+  }
+  .serviceType {
+    background-color: #222021;
+    color: black;
+  }
+  form>label {
+    color: white;
+  }
